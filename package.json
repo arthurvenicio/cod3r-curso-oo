@@ -1,8 +1,17 @@
 {
   "name": "cod3r-curso-oo",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/server.js",
   "repository": "git@github.com:arthurvenicio/cod3r-curso-oo.git",
   "author": "arthurvenicio <stuks.midia@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "dependencies": {
+    "express": "4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
 }
