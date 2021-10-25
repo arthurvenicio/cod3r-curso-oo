@@ -1,0 +1,8 @@
+{
+  "name": "cod3r-curso-oo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:arthurvenicio/cod3r-curso-oo.git",
+  "author": "arthurvenicio <stuks.midia@gmail.com>",
+  "license": "MIT"
+}
