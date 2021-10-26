@@ -1,5 +1,7 @@
 const express = require("express");
+const bd = require("./bd");
 const Product = require("./models/product.model");
+
 const app = express();
 
 app.use(express.json());
@@ -9,7 +11,6 @@ app.use(
   })
 );
 
-const bd = require("./bd");
 const result = {};
 
 const getConsole = (req, res, next) => {
