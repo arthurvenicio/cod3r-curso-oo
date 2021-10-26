@@ -38,9 +38,16 @@ const getProducts = (req, res) => {
   res.send(bd.getProdutos());
 };
 
+const deleteProduct = (req, res) => {
+  const id = req.query.id;
+  const data = bd.deleteProduto(id);
+  res.status(200).send(data);
+};
+
 app.post("/produto", getConsole);
 app.post("/produto", addProduct);
 app.get("/produto", getProduct);
+app.delete("/produto", deleteProduct);
 app.get("/produtos", getProducts);
 
 const port = 8080;
