@@ -6,6 +6,7 @@
   "dependencies": {
     "axios": "^0.23.0",
     "loadsh": "^0.0.4",
+    "node-schedule": "^2.0.0",
     "nodemon": "^2.0.14"
   }
 }

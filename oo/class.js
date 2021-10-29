@@ -1,4 +1,4 @@
-class Lanacamento {
+class Lancamento {
   constructor(name, valor) {
     this.name = name;
     this.valor = valor;
